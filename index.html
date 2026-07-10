@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP CHRISANGEL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-gem"></i>
+                <span>SHOP CHRISANGEL</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#products">Shop</a>
+                <a href="#footer">Contact</a>
+                <a href="https://wa.me/233532019871" target="_blank" class="nav-whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Us
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero" id="home">
+        <div class="hero-slideshow">
+            <div class="slide active" style="background-image: url('BE TRES COCO GHC 50.jpeg')"></div>
+            <div class="slide" style="background-image: url('CRYSTAL SNAKE CHAIN BRACELET GHC 35.jpeg')"></div>
+            <div class="slide" style="background-image: url('GOLD TEARDROP BANGLE GHC 45.jpeg')"></div>
+            <div class="slide" style="background-image: url('KAKAZIYAN GHC40.jpeg')"></div>
+            <div class="slide" style="background-image: url('CLIVE DORIS KHAMRAH GHC 30.jpeg')"></div>
+            <div class="slide" style="background-image: url('CLUSTER EYELASH GHC 60.jpeg')"></div>
+            <div class="slide" style="background-image: url('BERRWIES WEEKEND PERFUME  GHC 40.jpeg')"></div>
+            <div class="slide" style="background-image: url('GOLD BAR CUFF BRACELET GHC 35.jpeg')"></div>
+            <div class="slide" style="background-image: url('GREEN TEA HANDCREAM GHC 10.jpeg')"></div>
+            <div class="slide" style="background-image: url('CREAM TEARDROP EARRING.jpeg')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">SHOP CHRISANGEL</h1>
+            <p class="hero-tagline">Luxury Perfumes & Exquisite Jewellery</p>
+            <p class="hero-sub">Discover elegance that defines you</p>
+            <a href="#products" class="hero-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+        <div class="section-header">
+            <h2>Our Collection</h2>
+            <div class="gold-line"></div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <button class="filter-btn active" data-filter="all">All Products</button>
+            <button class="filter-btn" data-filter="perfume">Perfumes</button>
+            <button class="filter-btn" data-filter="jewelry">Jewellery</button>
+            <button class="filter-btn" data-filter="hair">Hair Accessories</button>
+            <button class="filter-btn" data-filter="body">Body Care</button>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="product-grid" id="productGrid">
+
+            <!-- PERFUMES -->
+            <div class="product-card" data-category="perfume">
+                <div class="product-image">
+                    <img src="BE TRES COCO GHC 50.jpeg" alt="Be Tres Coco">
+                    <div class="product-badge">Perfume</div>
+                </div>
+                <div class="product-info">
+                    <h3>Be Tres Coco</h3>
+                    <p class="product-price">GHC 50</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Be%20Tres%20Coco%20with%20the%20price%20GHC%2050%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="perfume">
+                <div class="product-image">
+                    <img src="BERRWIES WEEKEND PERFUME  GHC 40.jpeg" alt="Berrwies Weekend">
+                    <div class="product-badge">Perfume</div>
+                </div>
+                <div class="product-info">
+                    <h3>Berrwies Weekend</h3>
+                    <p class="product-price">GHC 40</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Berrwies%20Weekend%20with%20the%20price%20GHC%2040%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="perfume">
+                <div class="product-image">
+                    <img src="CLIVE DORIS KHAMRAH GHC 30.jpeg" alt="Clive Doris Khamrah">
+                    <div class="product-badge">Perfume</div>
+                </div>
+                <div class="product-info">
+                    <h3>Clive Doris Khamrah</h3>
+                    <p class="product-price">GHC 30</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Clive%20Doris%20Khamrah%20with%20the%20price%20GHC%2030%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="perfume">
+                <div class="product-image">
+                    <img src="CLIVE DORIS TERIAQ  GHC30.jpeg" alt="Clive Doris Teriaq">
+                    <div class="product-badge">Perfume</div>
+                </div>
+                <div class="product-info">
+                    <h3>Clive Doris Teriaq</h3>
+                    <p class="product-price">GHC 30</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Clive%20Doris%20Teriaq%20with%20the%20price%20GHC%2030%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="perfume">
+                <div class="product-image">
+                    <img src="IMPERIO BODY SPLASH GHC 25.jpeg" alt="Imperio Body Splash">
+                    <div class="product-badge">Perfume</div>
+                </div>
+                <div class="product-info">
+                    <h3>Imperio Body Splash</h3>
+                    <p class="product-price">GHC 25</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Imperio%20Body%20Splash%20with%20the%20price%20GHC%2025%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="perfume">
+                <div class="product-image">
+                    <img src="KAKAZIYAN GHC40.jpeg" alt="Kakazihan">
+                    <div class="product-badge">Perfume</div>
+                </div>
+                <div class="product-info">
+                    <h3>Kakazihan</h3>
+                    <p class="product-price">GHC 40</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Kakazihan%20with%20the%20price%20GHC%2040%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="perfume">
+                <div class="product-image">
+                    <img src="LUCKY ONE BODY PHILOSOPHY  GHC 25.jpeg" alt="Lucky One Body Philosophy">
+                    <div class="product-badge">Perfume</div>
+                </div>
+                <div class="product-info">
+                    <h3>Lucky One Body Philosophy</h3>
+                    <p class="product-price">GHC 25</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Lucky%20One%20Body%20Philosophy%20with%20the%20price%20GHC%2025%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="perfume">
+                <div class="product-image">
+                    <img src="REGINES CONCENTRATED PERFUME GHC20.jpeg" alt="Regines Concentrated Perfume">
+                    <div class="product-badge">Perfume</div>
+                </div>
+                <div class="product-info">
+                    <h3>Regines Concentrated Perfume</h3>
+                    <p class="product-price">GHC 20</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Regines%20Concentrated%20Perfume%20with%20the%20price%20GHC%2020%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <!-- JEWELLERY -->
+            <div class="product-card" data-category="jewelry">
+                <div class="product-image">
+                    <img src="CREAM TEARDROP EARRING.jpeg" alt="Cream Teardrop Earring">
+                    <div class="product-badge">Jewellery</div>
+                </div>
+                <div class="product-info">
+                    <h3>Cream Teardrop Earring</h3>
+                    <p class="product-price">Contact for Price</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Cream%20Teardrop%20Earring%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="jewelry">
+                <div class="product-image">
+                    <img src="CRYSTAL SNAKE CHAIN BRACELET GHC 35.jpeg" alt="Crystal Snake Chain Bracelet">
+                    <div class="product-badge">Jewellery</div>
+                </div>
+                <div class="product-info">
+                    <h3>Crystal Snake Chain Bracelet</h3>
+                    <p class="product-price">GHC 35</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Crystal%20Snake%20Chain%20Bracelet%20with%20the%20price%20GHC%2035%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="jewelry">
+                <div class="product-image">
+                    <img src="EMERALD GREEN GEMSTONE CHAIN BRACELET.jpeg" alt="Emerald Green Gemstone Bracelet">
+                    <div class="product-badge">Jewellery</div>
+                </div>
+                <div class="product-info">
+                    <h3>Emerald Green Gemstone Bracelet</h3>
+                    <p class="product-price">Contact for Price</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Emerald%20Green%20Gemstone%20Bracelet%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="jewelry">
+                <div class="product-image">
+                    <img src="GOLD BAR CUFF BRACELET GHC 35.jpeg" alt="Gold Bar Cuff Bracelet">
+                    <div class="product-badge">Jewellery</div>
+                </div>
+                <div class="product-info">
+                    <h3>Gold Bar Cuff Bracelet</h3>
+                    <p class="product-price">GHC 35</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Gold%20Bar%20Cuff%20Bracelet%20with%20the%20price%20GHC%2035%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="jewelry">
+                <div class="product-image">
+                    <img src="GOLD TEARDROP BANGLE GHC 45.jpeg" alt="Gold Teardrop Bangle">
+                    <div class="product-badge">Jewellery</div>
+                </div>
+                <div class="product-info">
+                    <h3>Gold Teardrop Bangle</h3>
+                    <p class="product-price">GHC 45</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Gold%20Teardrop%20Bangle%20with%20the%20price%20GHC%2045%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <!-- HAIR ACCESSORIES -->
+            <div class="product-card" data-category="hair">
+                <div class="product-image">
+                    <img src="CLAW HAIR CLIP GHC 45.jpeg" alt="Claw Hair Clip">
+                    <div class="product-badge">Hair</div>
+                </div>
+                <div class="product-info">
+                    <h3>Claw Hair Clip</h3>
+                    <p class="product-price">GHC 45</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Claw%20Hair%20Clip%20with%20the%20price%20GHC%2045%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="hair">
+                <div class="product-image">
+                    <img src="CLUSTER EYELASH GHC 60.jpeg" alt="Cluster Eyelash">
+                    <div class="product-badge">Hair</div>
+                </div>
+                <div class="product-info">
+                    <h3>Cluster Eyelash</h3>
+                    <p class="product-price">GHC 60</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Cluster%20Eyelash%20with%20the%20price%20GHC%2060%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="hair">
+                <div class="product-image">
+                    <img src="TRANSLUCENT PASTEL BLUE FLOWER HAIR CLAW CLIP GHC 25.jpeg" alt="Pastel Blue Flower Hair Claw Clip">
+                    <div class="product-badge">Hair</div>
+                </div>
+                <div class="product-info">
+                    <h3>Pastel Blue Flower Hair Claw Clip</h3>
+                    <p class="product-price">GHC 25</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Pastel%20Blue%20Flower%20Hair%20Claw%20Clip%20with%20the%20price%20GHC%2025%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="hair">
+                <div class="product-image">
+                    <img src="TRANSLUCENT PASTEL PEACH FLOWER HAIR CLAW CLIP  GHC 25.jpeg" alt="Pastel Peach Flower Hair Claw Clip">
+                    <div class="product-badge">Hair</div>
+                </div>
+                <div class="product-info">
+                    <h3>Pastel Peach Flower Hair Claw Clip</h3>
+                    <p class="product-price">GHC 25</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Pastel%20Peach%20Flower%20Hair%20Claw%20Clip%20with%20the%20price%20GHC%2025%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card" data-category="hair">
+                <div class="product-image">
+                    <img src="TRANSLUCENT PASTEL PINK FLOWER HAIR CLAW CLIP GHC 25.jpeg" alt="Pastel Pink Flower Hair Claw Clip">
+                    <div class="product-badge">Hair</div>
+                </div>
+                <div class="product-info">
+                    <h3>Pastel Pink Flower Hair Claw Clip</h3>
+                    <p class="product-price">GHC 25</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Pastel%20Pink%20Flower%20Hair%20Claw%20Clip%20with%20the%20price%20GHC%2025%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <!-- BODY CARE -->
+            <div class="product-card" data-category="body">
+                <div class="product-image">
+                    <img src="GREEN TEA HANDCREAM GHC 10.jpeg" alt="Green Tea Handcream">
+                    <div class="product-badge">Body Care</div>
+                </div>
+                <div class="product-info">
+                    <h3>Green Tea Handcream</h3>
+                    <p class="product-price">GHC 10</p>
+                    <a href="https://wa.me/233532019871?text=Hi%2C%20I've%20been%20attracted%20by%20this%20product%20Green%20Tea%20Handcream%20with%20the%20price%20GHC%2010%20and%20I'd%20want%20to%20purchase%20it" target="_blank" class="order-btn">
+                        <i class="fab fa-whatsapp"></i> ORDER VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/233532019871" target="_blank" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3><i class="fas fa-gem"></i> SHOP CHRISANGEL</h3>
+                <p>Your destination for luxury perfumes, exquisite jewellery, and premium beauty accessories. Elegance delivered to your doorstep.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Shop</a></li>
+                    <li><a href="#products">Perfumes</a></li>
+                    <li><a href="#products">Jewellery</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fab fa-whatsapp"></i> 053 201 9871</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Ghana</li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://instagram.com/al_an_chris" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/233532019871" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SHOP CHRISANGEL. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
